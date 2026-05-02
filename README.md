@@ -79,6 +79,4 @@ Three small JavaScript pieces deliver the main interactions, all without any fra
 - **Gym search & filter** (Gyms page) — combined predicate that evaluates a text query and active city/facility chip together in real time.
 - **Meal plan selector** (Nutrition page) — driven by an embedded JSON block; selecting a goal swaps the visible meal items.
 
-## Notes
 
-This is a final-year university project. The site uses a static JSON file rather than a database, and there is no user authentication or persistence — these were deliberately kept out of scope.
