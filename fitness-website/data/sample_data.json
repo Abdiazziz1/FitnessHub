@@ -1,0 +1,748 @@
+{
+  "stats": {
+    "workouts": 25,
+    "nutrition_tips": 40,
+    "local_gyms": 32
+  },
+  "popular_categories": [
+    {
+      "title": "Beginner Workouts",
+      "description": "Simple beginner sessions to build consistency and confidence.",
+      "link": "/workouts"
+    },
+    {
+      "title": "Weight Loss",
+      "description": "Fat-burning cardio and bodyweight combinations.",
+      "link": "/workouts"
+    },
+    {
+      "title": "Strength Training",
+      "description": "Progressive resistance routines for strength and muscle.",
+      "link": "/workouts"
+    },
+    {
+      "title": "Healthy Meal Ideas",
+      "description": "Balanced meal suggestions for sustainable energy.",
+      "link": "/nutrition"
+    }
+  ],
+  "workouts": [
+    {
+      "id": "beginner",
+      "title": "Beginner Workouts",
+      "description": "Starter-friendly plans to build a strong fitness base.",
+      "goal": "Improve baseline fitness, movement quality, and consistency.",
+      "level": "Beginner",
+      "equipment": "Bodyweight / Light Dumbbells",
+      "duration": "30-40 minutes",
+      "weekly_frequency": "3 days per week",
+      "rest_guidance": "Rest 45-60 seconds between sets.",
+      "progression_guidance": "Increase reps by 1-2 each week, then add light resistance.",
+      "exercises": [
+        "Warm-up: 5 minutes walking",
+        "Bodyweight squats: 3 x 10",
+        "Push-ups: 3 x 8",
+        "Lunges: 3 x 10",
+        "Plank: 3 x 30 seconds",
+        "Cool down stretching"
+      ],
+      "sets_reps": "3 rounds with controlled tempo and 45-60 sec rest",
+      "videos": [
+        {
+          "title": "Beginner Full Body Workout Tutorial",
+          "url": "https://www.youtube.com/results?search_query=beginner+full+body+workout+tutorial"
+        },
+        {
+          "title": "Correct Form for Basic Bodyweight Exercises",
+          "url": "https://www.youtube.com/results?search_query=beginner+bodyweight+exercise+form"
+        }
+      ],
+      "guidance": [
+        "Focus on form before increasing speed.",
+        "Keep a training log to track weekly improvement.",
+        "Take at least one rest day between sessions."
+      ]
+    },
+    {
+      "id": "weight-loss",
+      "title": "Weight Loss Workouts",
+      "description": "High-energy workouts to support calorie burn and stamina.",
+      "goal": "Increase heart rate and improve endurance while preserving muscle.",
+      "level": "Beginner to Intermediate",
+      "equipment": "Bodyweight",
+      "duration": "25-35 minutes",
+      "weekly_frequency": "4 days per week",
+      "rest_guidance": "Rest 20-40 seconds between exercises, 90 seconds between rounds.",
+      "progression_guidance": "Add one extra round after 2 weeks or shorten rest time.",
+      "exercises": [
+        "Jumping jacks: 3 x 30 sec",
+        "Mountain climbers: 3 x 20",
+        "Burpees: 3 x 10",
+        "High knees: 3 x 30 sec",
+        "Plank: 3 x 30 sec"
+      ],
+      "sets_reps": "Perform as circuits with 30 sec rest between exercises",
+      "videos": [
+        {
+          "title": "HIIT Cardio for Fat Loss",
+          "url": "https://www.youtube.com/results?search_query=hiit+cardio+fat+loss+workout"
+        },
+        {
+          "title": "Calories Burning Home Cardio Session",
+          "url": "https://www.youtube.com/results?search_query=home+cardio+workout+for+weight+loss"
+        }
+      ],
+      "guidance": [
+        "Start every session with dynamic warm-up.",
+        "Keep hydration during high-intensity rounds.",
+        "Pair with a moderate calorie deficit for better fat loss."
+      ]
+    },
+    {
+      "id": "strength",
+      "title": "Strength Training",
+      "description": "Compound lifts for strength and lean muscle growth.",
+      "goal": "Build full-body strength using progressive overload.",
+      "level": "Intermediate",
+      "equipment": "Barbell / Dumbbells / Bench",
+      "duration": "45-60 minutes",
+      "weekly_frequency": "4 days per week",
+      "rest_guidance": "Rest 2-3 minutes on heavy lifts, 60-90 sec on accessories.",
+      "progression_guidance": "Increase weight by 2.5-5% when all target reps are achieved.",
+      "exercises": [
+        "Squats",
+        "Deadlifts",
+        "Bench press",
+        "Shoulder press",
+        "Rows"
+      ],
+      "sets_reps": "3-5 sets per exercise, 5-12 reps based on experience",
+      "videos": [
+        {
+          "title": "Strength Training Fundamentals",
+          "url": "https://www.youtube.com/results?search_query=strength+training+fundamentals+for+beginners"
+        },
+        {
+          "title": "How to Perform Squat, Deadlift, Bench Correctly",
+          "url": "https://www.youtube.com/results?search_query=squat+deadlift+bench+form+guide"
+        }
+      ],
+      "guidance": [
+        "Prioritize compound lifts early in the workout.",
+        "Use controlled eccentric movement for better muscle stimulus.",
+        "Schedule at least 48 hours before training same muscle groups again."
+      ]
+    },
+    {
+      "id": "home",
+      "title": "Home Workouts",
+      "description": "No-equipment training you can do anywhere.",
+      "goal": "Stay active at home with effective bodyweight exercises.",
+      "level": "All Levels",
+      "equipment": "No Equipment",
+      "duration": "20-30 minutes",
+      "weekly_frequency": "4-5 days per week",
+      "rest_guidance": "Rest 30-45 seconds between movements.",
+      "progression_guidance": "Increase total rounds or tempo control each week.",
+      "exercises": [
+        "Bodyweight squats",
+        "Push-ups",
+        "Sit-ups",
+        "Glute bridges",
+        "Plank"
+      ],
+      "sets_reps": "3-4 rounds, 10-15 reps per movement",
+      "videos": [
+        {
+          "title": "No Equipment Home Workout",
+          "url": "https://www.youtube.com/results?search_query=no+equipment+home+workout+full+body"
+        },
+        {
+          "title": "Apartment Friendly Bodyweight Routine",
+          "url": "https://www.youtube.com/results?search_query=apartment+friendly+bodyweight+workout"
+        }
+      ],
+      "guidance": [
+        "Use slow form to increase difficulty without equipment.",
+        "Train in a clear space with stable footing.",
+        "Combine with light walking on rest days."
+      ]
+    },
+    {
+      "id": "full-body",
+      "title": "Full Body Workouts",
+      "description": "Balanced routines targeting major muscle groups.",
+      "goal": "Improve overall strength, mobility, and conditioning.",
+      "level": "Beginner to Intermediate",
+      "equipment": "Dumbbells / Bodyweight",
+      "duration": "35-50 minutes",
+      "weekly_frequency": "3 days per week",
+      "rest_guidance": "Rest 60-90 seconds between sets.",
+      "progression_guidance": "Add 1 set per exercise or increase dumbbell load gradually.",
+      "exercises": [
+        "Goblet squats",
+        "Push-ups",
+        "Bent-over rows",
+        "Romanian deadlifts",
+        "Plank shoulder taps",
+        "Walking lunges"
+      ],
+      "sets_reps": "3-4 sets each, 8-12 reps",
+      "videos": [
+        {
+          "title": "Full Body Dumbbell Workout",
+          "url": "https://www.youtube.com/results?search_query=full+body+dumbbell+workout+routine"
+        },
+        {
+          "title": "Balanced Push Pull Legs in One Session",
+          "url": "https://www.youtube.com/results?search_query=full+body+push+pull+legs+workout"
+        }
+      ],
+      "guidance": [
+        "Alternate push and pull exercises for better balance.",
+        "Finish with mobility stretching for hips and shoulders.",
+        "Keep one easy recovery day after each session."
+      ]
+    },
+    {
+      "id": "muscle-gain",
+      "title": "Muscle Gain Plan",
+      "description": "Hypertrophy-focused split for lean muscle growth.",
+      "goal": "Increase muscle size with structured volume and recovery.",
+      "level": "Intermediate",
+      "equipment": "Gym Equipment",
+      "duration": "60-70 minutes",
+      "weekly_frequency": "5 days per week",
+      "rest_guidance": "Rest 60-90 seconds between hypertrophy sets.",
+      "progression_guidance": "Use double progression: increase reps first, then increase load.",
+      "exercises": [
+        "Incline dumbbell press: 4 x 8-12",
+        "Lat pulldown: 4 x 10-12",
+        "Leg press: 4 x 10-12",
+        "Romanian deadlift: 3 x 8-10",
+        "Lateral raises: 3 x 12-15",
+        "Cable curls / triceps pressdown: 3 x 12"
+      ],
+      "sets_reps": "16-20 working sets per major muscle group each week",
+      "videos": [
+        {
+          "title": "Hypertrophy Training Plan for Muscle Gain",
+          "url": "https://www.youtube.com/results?search_query=hypertrophy+training+plan+for+muscle+gain"
+        },
+        {
+          "title": "Best Exercises for Building Muscle Mass",
+          "url": "https://www.youtube.com/results?search_query=best+exercises+for+muscle+mass+gain"
+        }
+      ],
+      "guidance": [
+        "Consume adequate protein and sleep 7-9 hours nightly.",
+        "Train close to failure with clean form.",
+        "Plan a deload week every 6-8 weeks."
+      ]
+    },
+    {
+      "id": "mobility-core",
+      "title": "Mobility & Core Plan",
+      "description": "Low-impact sessions to improve posture, movement, and core stability.",
+      "goal": "Reduce stiffness and strengthen core support muscles.",
+      "level": "All Levels",
+      "equipment": "Mat / Resistance Band (Optional)",
+      "duration": "25-35 minutes",
+      "weekly_frequency": "3-4 days per week",
+      "rest_guidance": "Use 20-30 sec transitions between drills.",
+      "progression_guidance": "Increase hold duration and range of motion gradually.",
+      "exercises": [
+        "Cat-cow mobility flow: 2 x 8",
+        "World's greatest stretch: 2 x 6 per side",
+        "Dead bug: 3 x 10",
+        "Side plank: 3 x 20-40 sec",
+        "Bird dog: 3 x 10 per side",
+        "Hip flexor stretch: 2 x 45 sec"
+      ],
+      "sets_reps": "Focus on control, breathing, and posture quality",
+      "videos": [
+        {
+          "title": "Mobility Routine for Beginners",
+          "url": "https://www.youtube.com/results?search_query=mobility+routine+for+beginners"
+        },
+        {
+          "title": "Core Stability and Posture Workout",
+          "url": "https://www.youtube.com/results?search_query=core+stability+posture+workout"
+        }
+      ],
+      "guidance": [
+        "Breathe slowly through each mobility movement.",
+        "Stop before painful ranges and move progressively.",
+        "Add this plan between heavier training days."
+      ]
+    }
+  ],
+  "nutrition_basics": [
+    {
+      "title": "Protein",
+      "description": "Protein helps build and repair muscles. Good sources include eggs, fish, chicken, beans, and yogurt."
+    },
+    {
+      "title": "Carbohydrates",
+      "description": "Carbs provide energy for workouts. Choose whole grains, oats, fruits, and vegetables for steady fuel."
+    },
+    {
+      "title": "Healthy Fats",
+      "description": "Healthy fats support hormones and recovery. Include nuts, seeds, olive oil, and avocado in moderation."
+    },
+    {
+      "title": "Water / Hydration",
+      "description": "Hydration supports performance and recovery. Drink water throughout the day and around workouts."
+    }
+  ],
+  "meal_plans": [
+    {
+      "name": "Breakfast",
+      "options": [
+        {
+          "label": "Option 1 - Classic Balanced",
+          "items": [
+            "Oats with banana and milk",
+            "Boiled eggs",
+            "Green tea or water",
+            "Optional: chia seeds for extra fiber"
+          ]
+        },
+        {
+          "label": "Option 2 - High Protein",
+          "items": [
+            "Greek yogurt bowl with berries",
+            "2-3 scrambled eggs",
+            "Whole wheat toast",
+            "Water"
+          ]
+        },
+        {
+          "label": "Option 3 - Quick Office/Student",
+          "items": [
+            "Peanut butter sandwich on whole wheat bread",
+            "1 banana",
+            "Milk or unsweetened soy milk",
+            "Handful of nuts"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lunch",
+      "options": [
+        {
+          "label": "Option 1 - Lean Muscle",
+          "items": [
+            "Grilled chicken",
+            "Brown rice",
+            "Mixed vegetables",
+            "Yogurt or buttermilk"
+          ]
+        },
+        {
+          "label": "Option 2 - Vegetarian Power",
+          "items": [
+            "Lentils / chickpeas",
+            "Quinoa or brown rice",
+            "Stir-fried vegetables",
+            "Curd"
+          ]
+        },
+        {
+          "label": "Option 3 - Weight Loss",
+          "items": [
+            "Large salad bowl with protein",
+            "Small serving whole grains",
+            "Olive oil + lemon dressing",
+            "Water"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Snack",
+      "options": [
+        {
+          "label": "Option 1 - Recovery Snack",
+          "items": [
+            "Greek yogurt with berries",
+            "A handful of almonds or peanuts",
+            "1 seasonal fruit"
+          ]
+        },
+        {
+          "label": "Option 2 - Quick Energy",
+          "items": [
+            "Banana",
+            "Peanut butter (1 tbsp)",
+            "Black coffee or water"
+          ]
+        },
+        {
+          "label": "Option 3 - High Protein",
+          "items": [
+            "Boiled eggs",
+            "Paneer cubes / cottage cheese",
+            "Cucumber and carrot sticks"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dinner",
+      "options": [
+        {
+          "label": "Option 1 - Light and Balanced",
+          "items": [
+            "Fish or chicken",
+            "Salad",
+            "Sweet potato or whole wheat bread",
+            "Soup (optional for satiety)"
+          ]
+        },
+        {
+          "label": "Option 2 - Protein Focus",
+          "items": [
+            "Grilled paneer / tofu / chicken",
+            "Steamed vegetables",
+            "Small quinoa serving",
+            "Herbal tea"
+          ]
+        },
+        {
+          "label": "Option 3 - Professional Athlete",
+          "items": [
+            "Lean meat or fish",
+            "Complex carbs (rice/potato)",
+            "Mixed vegetables",
+            "Casein-rich yogurt before sleep"
+          ]
+        }
+      ]
+    }
+  ],
+  "nutrition_programs": [
+    {
+      "name": "Beginner Plan",
+      "description": "Simple portion control with balanced meals and hydration habits.",
+      "focus": "Build consistency and remove junk-food dependence.",
+      "best_for": "New gym users"
+    },
+    {
+      "name": "Intermediate Plan",
+      "description": "Higher protein distribution and meal timing around workouts.",
+      "focus": "Improve body composition and workout recovery.",
+      "best_for": "People training 4-5 days/week"
+    },
+    {
+      "name": "Professional Performance Plan",
+      "description": "Structured macro-focused intake with performance fueling windows.",
+      "focus": "Support intense training, recovery, and muscle preservation.",
+      "best_for": "Advanced trainees / competitive athletes"
+    }
+  ],
+  "nutrition_tips": [
+    "Drink enough water",
+    "Avoid too much junk food",
+    "Include protein in meals",
+    "Eat fruits and vegetables",
+    "Do not skip breakfast"
+  ],
+  "pre_workout": [
+    "Banana",
+    "Oats",
+    "Yogurt"
+  ],
+  "post_workout": [
+    "Eggs",
+    "Chicken",
+    "Milk",
+    "Protein-rich meals"
+  ],
+  "nutrition_details": [
+    {
+      "title": "Calorie Awareness",
+      "description": "For fat loss, eat slightly below maintenance calories. For muscle gain, eat slightly above maintenance with quality foods."
+    },
+    {
+      "title": "Balanced Plate Method",
+      "description": "Fill half your plate with vegetables, one quarter with lean protein, and one quarter with whole-grain carbs."
+    },
+    {
+      "title": "Protein Timing",
+      "description": "Distribute protein across 3-5 meals daily to support muscle recovery and appetite control."
+    },
+    {
+      "title": "Recovery Nutrition",
+      "description": "After training, combine protein + carbs within 60-90 minutes to improve glycogen refill and muscle repair."
+    }
+  ],
+  "goal_based_nutrition": [
+    {
+      "goal": "Weight Loss",
+      "focus": "Moderate calorie deficit, high-fiber meals, and protein in each meal.",
+      "sample": "Grilled chicken salad + brown rice + fruit"
+    },
+    {
+      "goal": "Muscle Gain",
+      "focus": "Calorie surplus from whole foods, protein-rich snacks, and strength-focused fueling.",
+      "sample": "Rice + lean meat + vegetables + yogurt"
+    },
+    {
+      "goal": "Maintenance",
+      "focus": "Balanced intake with consistent hydration and meal timing.",
+      "sample": "Protein + carbs + healthy fats in each main meal"
+    }
+  ],
+  "gyms": [
+    {
+      "name": "Power House Gym",
+      "city": "Downtown",
+      "address": "12 Main Street, Downtown",
+      "phone": "+123450001",
+      "timings": "6:00 AM - 11:00 PM",
+      "facilities": ["Cardio", "Weights", "Trainer", "Parking"],
+      "map_link": "https://maps.google.com/?q=12+Main+Street+Downtown"
+    },
+    {
+      "name": "FitZone Gym",
+      "city": "Westside",
+      "address": "45 West Avenue, Westside",
+      "phone": "+123450002",
+      "timings": "5:30 AM - 10:30 PM",
+      "facilities": ["Cardio", "Weights", "Group Classes", "Shower"],
+      "map_link": "https://maps.google.com/?q=45+West+Avenue+Westside"
+    },
+    {
+      "name": "Alpha Fitness Club",
+      "city": "North City",
+      "address": "89 North Road, North City",
+      "phone": "+123450003",
+      "timings": "6:00 AM - 10:00 PM",
+      "facilities": ["Weights", "Trainer", "Parking", "CrossFit Zone"],
+      "map_link": "https://maps.google.com/?q=89+North+Road+North+City"
+    },
+    {
+      "name": "Iron Core Gym",
+      "city": "East Park",
+      "address": "33 Park Lane, East Park",
+      "phone": "+123450004",
+      "timings": "24 Hours",
+      "facilities": ["Cardio", "Weights", "Personal Trainer", "Parking"],
+      "map_link": "https://maps.google.com/?q=33+Park+Lane+East+Park"
+    },
+    {
+      "name": "Flex Fitness Studio",
+      "city": "South Point",
+      "address": "17 Lake View, South Point",
+      "phone": "+123450005",
+      "timings": "6:00 AM - 9:30 PM",
+      "facilities": ["Cardio", "Yoga", "Pilates", "Locker Room"],
+      "map_link": "https://maps.google.com/?q=17+Lake+View+South+Point"
+    },
+    {
+      "name": "Muscle Factory",
+      "city": "Central Hub",
+      "address": "101 Central Blvd, Central Hub",
+      "phone": "+123450006",
+      "timings": "5:00 AM - 12:00 AM",
+      "facilities": ["Weights", "Powerlifting Area", "Trainer", "Parking"],
+      "map_link": "https://maps.google.com/?q=101+Central+Blvd+Central+Hub"
+    },
+    {
+      "name": "Titan Fitness Lahore",
+      "city": "Lahore",
+      "address": "MM Alam Road, Gulberg, Lahore",
+      "phone": "+923001112233",
+      "timings": "6:00 AM - 11:00 PM",
+      "facilities": ["Cardio", "Weights", "Personal Trainer", "Parking"],
+      "map_link": "https://maps.google.com/?q=MM+Alam+Road+Lahore"
+    },
+    {
+      "name": "Prime Strength Club",
+      "city": "Karachi",
+      "address": "Shahrah-e-Faisal, Karachi",
+      "phone": "+923002224466",
+      "timings": "5:30 AM - 11:30 PM",
+      "facilities": ["Cardio", "Weights", "Steam", "Locker Room"],
+      "map_link": "https://maps.google.com/?q=Shahrah-e-Faisal+Karachi"
+    },
+    {
+      "name": "Capital Fit Arena",
+      "city": "Islamabad",
+      "address": "F-10 Markaz, Islamabad",
+      "phone": "+923003336699",
+      "timings": "6:00 AM - 10:30 PM",
+      "facilities": ["CrossFit Zone", "Weights", "Trainer", "Parking"],
+      "map_link": "https://maps.google.com/?q=F-10+Markaz+Islamabad"
+    },
+    {
+      "name": "Rawal Power Gym",
+      "city": "Rawalpindi",
+      "address": "Satellite Town, Rawalpindi",
+      "phone": "+923004447788",
+      "timings": "6:30 AM - 11:00 PM",
+      "facilities": ["Cardio", "Weights", "Group Classes", "Trainer"],
+      "map_link": "https://maps.google.com/?q=Satellite+Town+Rawalpindi"
+    },
+    {
+      "name": "Fit Nation Faisalabad",
+      "city": "Faisalabad",
+      "address": "D Ground, Faisalabad",
+      "phone": "+923005551122",
+      "timings": "6:00 AM - 10:00 PM",
+      "facilities": ["Weights", "Cardio", "HIIT Area", "Parking"],
+      "map_link": "https://maps.google.com/?q=D+Ground+Faisalabad"
+    },
+    {
+      "name": "KPK Iron House",
+      "city": "Peshawar",
+      "address": "University Road, Peshawar",
+      "phone": "+923006662244",
+      "timings": "7:00 AM - 10:30 PM",
+      "facilities": ["Weights", "Trainer", "Cardio", "Parking"],
+      "map_link": "https://maps.google.com/?q=University+Road+Peshawar"
+    },
+    {
+      "name": "Multan Fitness Point",
+      "city": "Multan",
+      "address": "Cantt Area, Multan",
+      "phone": "+923007773355",
+      "timings": "6:00 AM - 10:00 PM",
+      "facilities": ["Cardio", "Weights", "Sauna", "Locker Room"],
+      "map_link": "https://maps.google.com/?q=Cantt+Area+Multan"
+    },
+    {
+      "name": "Elite Gym Gujranwala",
+      "city": "Gujranwala",
+      "address": "Model Town, Gujranwala",
+      "phone": "+923008884466",
+      "timings": "6:30 AM - 10:30 PM",
+      "facilities": ["Cardio", "Weights", "Trainer", "Shower"],
+      "map_link": "https://maps.google.com/?q=Model+Town+Gujranwala"
+    },
+    {
+      "name": "Champion Fitness Sialkot",
+      "city": "Sialkot",
+      "address": "Cantt Road, Sialkot",
+      "phone": "+923009995577",
+      "timings": "6:00 AM - 10:00 PM",
+      "facilities": ["Weights", "Cardio", "Functional Training", "Parking"],
+      "map_link": "https://maps.google.com/?q=Cantt+Road+Sialkot"
+    },
+    {
+      "name": "Hyderabad Fitness Hub",
+      "city": "Hyderabad",
+      "address": "Auto Bhan Road, Hyderabad",
+      "phone": "+923001234567",
+      "timings": "6:30 AM - 10:30 PM",
+      "facilities": ["Cardio", "Weights", "Group Classes", "Trainer"],
+      "map_link": "https://maps.google.com/?q=Auto+Bhan+Road+Hyderabad+Pakistan"
+    },
+    {
+      "name": "Lahore Strength Lab",
+      "city": "Lahore",
+      "address": "Johar Town, Lahore",
+      "phone": "+923101112233",
+      "timings": "5:30 AM - 11:00 PM",
+      "facilities": ["Weights", "Cardio", "CrossFit Zone", "Steam"],
+      "map_link": "https://maps.google.com/?q=Johar+Town+Lahore"
+    },
+    {
+      "name": "Karachi Core Fitness",
+      "city": "Karachi",
+      "address": "Clifton Block 5, Karachi",
+      "phone": "+923102224466",
+      "timings": "6:00 AM - 12:00 AM",
+      "facilities": ["Cardio", "Weights", "Personal Trainer", "Parking"],
+      "map_link": "https://maps.google.com/?q=Clifton+Block+5+Karachi"
+    },
+    {
+      "name": "Islamabad Performance Gym",
+      "city": "Islamabad",
+      "address": "G-11 Markaz, Islamabad",
+      "phone": "+923103336699",
+      "timings": "6:00 AM - 11:00 PM",
+      "facilities": ["Functional Training", "Weights", "Cardio", "Shower"],
+      "map_link": "https://maps.google.com/?q=G-11+Markaz+Islamabad"
+    },
+    {
+      "name": "RWP Flex Arena",
+      "city": "Rawalpindi",
+      "address": "Bahria Town Phase 4, Rawalpindi",
+      "phone": "+923104447788",
+      "timings": "6:00 AM - 10:30 PM",
+      "facilities": ["Cardio", "Weights", "Group Classes", "Locker Room"],
+      "map_link": "https://maps.google.com/?q=Bahria+Town+Phase+4+Rawalpindi"
+    },
+    {
+      "name": "FSD Active Zone",
+      "city": "Faisalabad",
+      "address": "People Colony, Faisalabad",
+      "phone": "+923105551122",
+      "timings": "6:30 AM - 10:30 PM",
+      "facilities": ["HIIT Area", "Cardio", "Weights", "Trainer"],
+      "map_link": "https://maps.google.com/?q=People+Colony+Faisalabad"
+    },
+    {
+      "name": "Peshawar Fit Studio",
+      "city": "Peshawar",
+      "address": "Hayatabad Phase 3, Peshawar",
+      "phone": "+923106662244",
+      "timings": "7:00 AM - 10:00 PM",
+      "facilities": ["Cardio", "Weights", "Functional Training", "Parking"],
+      "map_link": "https://maps.google.com/?q=Hayatabad+Phase+3+Peshawar"
+    },
+    {
+      "name": "Multan Bodyworks",
+      "city": "Multan",
+      "address": "Bosan Road, Multan",
+      "phone": "+923107773355",
+      "timings": "6:00 AM - 10:30 PM",
+      "facilities": ["Weights", "Cardio", "Personal Trainer", "Shower"],
+      "map_link": "https://maps.google.com/?q=Bosan+Road+Multan"
+    },
+    {
+      "name": "Gujranwala Iron Temple",
+      "city": "Gujranwala",
+      "address": "Civil Lines, Gujranwala",
+      "phone": "+923108884466",
+      "timings": "6:00 AM - 11:00 PM",
+      "facilities": ["Powerlifting Area", "Weights", "Trainer", "Parking"],
+      "map_link": "https://maps.google.com/?q=Civil+Lines+Gujranwala"
+    },
+    {
+      "name": "Sialkot Power Club",
+      "city": "Sialkot",
+      "address": "Paris Road, Sialkot",
+      "phone": "+923109995577",
+      "timings": "6:00 AM - 10:30 PM",
+      "facilities": ["Cardio", "Weights", "CrossFit Zone", "Parking"],
+      "map_link": "https://maps.google.com/?q=Paris+Road+Sialkot"
+    },
+    {
+      "name": "Hyderabad Wellness Gym",
+      "city": "Hyderabad",
+      "address": "Latifabad Unit 7, Hyderabad",
+      "phone": "+923101234567",
+      "timings": "6:30 AM - 10:00 PM",
+      "facilities": ["Cardio", "Yoga", "Weights", "Trainer"],
+      "map_link": "https://maps.google.com/?q=Latifabad+Unit+7+Hyderabad"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can beginners use this website?",
+      "answer": "Yes. All workout and nutrition content is designed to be beginner-friendly and easy to follow."
+    },
+    {
+      "question": "Do I need a gym membership to start?",
+      "answer": "No. You can begin with home workouts and basic nutrition habits, then add a gym later."
+    },
+    {
+      "question": "Is this a personalized coaching service?",
+      "answer": "This is an informational platform with practical guidance and sample plans, not personal medical advice."
+    }
+  ]
+}
